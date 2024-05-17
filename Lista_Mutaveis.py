@@ -7,7 +7,7 @@ print(frutas1)
 # Simplicado
 
 frutas2 = ['a', 'b', 'c', 'd', 'e', 'f']
-frutas2[1:3] = ['x', 'y']
+frutas2[1:3] = ['x', 'y'] # colocar do 1 ao 3
 print(frutas2)
 
 # Adição de elementos
