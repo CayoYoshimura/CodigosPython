@@ -5,12 +5,12 @@ if (salario <= 280):
     reajuste = salario+aumento
 
     print("Salario: R$ {:.2f}".format(salario))
-    print("Percentual: 20%")
+    print("Percentual: 20%") 
     print("Valor do aumento: R$ {:.2f}".format(aumento))
     print("Novo salário: R$ {:.2f}".format(reajuste))
 
 elif (salario > 280 and salario <= 700):
-    aumento = 15/100*salario
+    aumento = 15/100*salario 
     reajuste = salario+aumento
 
     print("Salario: R$ {:.2f}".format(salario))
@@ -27,7 +27,7 @@ elif (salario > 700 and salario <= 1500):
     print("Valor do aumento: R$ {:.2f}".format(aumento))
     print("Novo salário: R$ {:.2f}".format(reajuste))
 
-elif (salario >= 1500):
+elif (salario > 1500):
     aumento = 5/100*salario
     reajuste = salario+aumento
 
